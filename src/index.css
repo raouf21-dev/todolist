@@ -45,13 +45,13 @@ body {
 }
 
 .listItems span.name, form input[type=text]{
-  width: 60%;
+  width: 35%;
 }
 .listItems span.age, form input[type=number]{
-  width: 30%;
+  width: 35%;
 }
 .listItems span.action, form input[type=submit]{
-  width: 10%;
+  width: 30%;
 }
 
 .listItems span.icon {
@@ -74,4 +74,10 @@ form input[type="submit"]{
   border: .3px solid #2ebaee;
   color: #fff;
   cursor: pointer;
+}
+
+@media (max-width: 500px){
+  .container {
+    font-size: 30%;
+  }
 }
